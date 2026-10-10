@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- WZÓR: nie publikować z nazwą restauracji bez zgody właścicielki -->
+    <meta name="robots" content="noindex">
+    <title>Restauracja Podkowa – obiady domowe i przyjęcia | Łobżenica</title>
+    <meta name="description" content="Restauracja Podkowa w centrum Łobżenicy: domowe obiady, zestaw dnia, dania na wynos, catering i przyjęcia okolicznościowe. Sienkiewicza 5, tel. 67 286 02 01.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <p class="demo-bar">Wzór strony. Dane oznaczone przerywaną ramką są do potwierdzenia.</p>
+
+    <nav class="navbar">
+        <div class="container nav-inner">
+            <a href="#" class="logo">Podkowa</a>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label" aria-label="Rozwiń menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <div class="nav-links">
+                <a href="#obiad-dnia">Obiad dnia</a>
+                <a href="#menu">Menu</a>
+                <a href="#przyjecia">Przyjęcia</a>
+                <a href="#kontakt">Kontakt</a>
+            </div>
+            <!-- DO POTWIERDZENIA: numer telefonu (w katalogach są 3 różne) -->
+            <a href="tel:+48672860201" class="btn btn-call">67 286 02 01</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container hero-inner">
+            <p class="hero-place">Łobżenica • ul. Sienkiewicza 5</p>
+            <h1>Restauracja Podkowa</h1>
+            <p class="hero-tagline">Domowe obiady w centrum Łobżenicy. Na miejscu, na wynos i na Wasze przyjęcia.</p>
+
+            <!-- DO POTWIERDZENIA: godziny (katalogi podają 10–17, 10–18 albo 10–22) -->
+            <p class="hero-hours do-potwierdzenia">Otwarte codziennie: <strong>10:00 – 17:00</strong></p>
+
+            <div class="hero-buttons">
+                <a href="tel:+48672860201" class="btn btn-primary">Zadzwoń i zamów</a>
+                <a href="#obiad-dnia" class="btn btn-ghost">Co dziś na obiad?</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- OBIAD DNIA: najczęściej odwiedzana część strony restauracji -->
+        <section id="obiad-dnia" class="section">
+            <div class="container">
+                <h2 class="section-title">Obiad dnia</h2>
+                <p class="section-lead">Zmienia się codziennie. Możesz zjeść na miejscu albo zabrać na wynos.</p>
+
+                <!-- DO POTWIERDZENIA: przykładowy zestaw i cena (jedna opinia z Google wspomina 20 zł) -->
+                <article class="daily-card do-potwierdzenia">
+                    <p class="daily-date">Poniedziałek, 12 października</p>
+                    <ul class="daily-list">
+                        <li><span>Zupa</span> Pomidorowa z makaronem</li>
+                        <li><span>Drugie danie</span> Kotlet schabowy, ziemniaki, surówka z kapusty</li>
+                        <li><span>Napój</span> Kompot</li>
+                    </ul>
+                    <p class="daily-price">20 zł</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="menu" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Menu</h2>
+                <p class="section-lead">Kuchnia polska, porcje jak u mamy.</p>
+
+                <!-- DO POTWIERDZENIA: całe menu jest przykładowe, wpisać prawdziwe dania i ceny od właścicielki -->
+                <div class="menu-grid do-potwierdzenia">
+                    <div class="menu-group">
+                        <h3>Zupy</h3>
+                        <ul class="menu-list">
+                            <li><span>Rosół z makaronem</span><span class="price">00 zł</span></li>
+                            <li><span>Żurek z jajkiem</span><span class="price">00 zł</span></li>
+                            <li><span>Flaki</span><span class="price">00 zł</span></li>
+                        </ul>
+                    </div>
+                    <div class="menu-group">
+                        <h3>Dania główne</h3>
+                        <ul class="menu-list">
+                            <li><span>Kotlet schabowy z ziemniakami</span><span class="price">00 zł</span></li>
+                            <li><span>Golonka</span><span class="price">00 zł</span></li>
+                            <li><span>Filet z ryby</span><span class="price">00 zł</span></li>
+                            <li><span>Pierogi ruskie</span><span class="price">00 zł</span></li>
+                        </ul>
+                    </div>
+                    <div class="menu-group">
+                        <h3>Dla dzieci</h3>
+                        <ul class="menu-list">
+                            <li><span>Nuggetsy z frytkami</span><span class="price">00 zł</span></li>
+                            <li><span>Naleśniki z serem</span><span class="price">00 zł</span></li>
+                        </ul>
+                    </div>
+                    <div class="menu-group">
+                        <h3>Desery i napoje</h3>
+                        <ul class="menu-list">
+                            <li><span>Szarlotka</span><span class="price">00 zł</span></li>
+                            <li><span>Kawa, herbata</span><span class="price">00 zł</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="przyjecia" class="section">
+            <div class="container">
+                <h2 class="section-title">Przyjęcia i catering</h2>
+                <p class="section-lead">Zorganizujemy Wasze rodzinne spotkanie albo przygotujemy jedzenie na wynos dla większej grupy.</p>
+
+                <div class="cards">
+                    <!-- DO POTWIERDZENIA: liczba sal i miejsc (strona gminy: 3 sale + sala taneczna, ok. 200 miejsc, stara informacja) -->
+                    <article class="card">
+                        <div class="photo-placeholder">Zdjęcie sali (od właścicielki)</div>
+                        <h3>Przyjęcia okolicznościowe</h3>
+                        <p>Komunie, chrzciny, urodziny, rocznice, stypy. Kilka sal, w tym sala taneczna.</p>
+                        <p class="card-note do-potwierdzenia">Do ok. 200 gości</p>
+                    </article>
+                    <article class="card">
+                        <div class="photo-placeholder">Zdjęcie dań na wynos</div>
+                        <h3>Catering</h3>
+                        <p>Domowe dania na spotkania w firmie, w domu albo w świetlicy. Menu ustalamy razem z Wami.</p>
+                        <p class="card-note do-potwierdzenia">Od ilu porcji? Czy z dowozem?</p>
+                    </article>
+                    <article class="card">
+                        <div class="photo-placeholder">Zdjęcie obiadu</div>
+                        <h3>Obiady na wynos</h3>
+                        <p>Zadzwoń wcześniej, a obiad będzie gotowy do odbioru, kiedy przyjedziesz.</p>
+                        <a href="tel:+48672860201" class="card-link">Zadzwoń: 67 286 02 01</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="opinie" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Co mówią goście</h2>
+                <!-- DO POTWIERDZENIA: ocena z Google (katalogi podają ok. 4,3 przy ok. 280 opiniach). Sprawdzić w Mapach. -->
+                <p class="section-lead do-potwierdzenia">Ok. 4,3 / 5 w Google, ponad 270 opinii</p>
+
+                <!-- Wkleić 2-3 PRAWDZIWE opinie z Google z imieniem autora. Nie wymyślać. -->
+                <div class="reviews">
+                    <blockquote class="review do-potwierdzenia">
+                        <p>Tu wklej prawdziwą opinię z Google.</p>
+                        <cite>Imię autora, Google</cite>
+                    </blockquote>
+                    <blockquote class="review do-potwierdzenia">
+                        <p>Tu wklej drugą prawdziwą opinię z Google.</p>
+                        <cite>Imię autora, Google</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <section id="kontakt" class="section">
+            <div class="container contact-grid">
+                <div>
+                    <h2 class="section-title">Kontakt i dojazd</h2>
+                    <address class="contact-list">
+                        <p><strong>Restauracja Podkowa</strong><br>ul. Sienkiewicza 5<br>89-310 Łobżenica</p>
+                        <p><a href="tel:+48672860201" class="contact-phone">67 286 02 01</a></p>
+                        <p><a href="https://www.facebook.com/Podkowa.lobzenica/" target="_blank" rel="noopener">Facebook</a></p>
+                    </address>
+                    <a href="https://www.google.com/maps/search/?api=1&query=Restauracja+Podkowa+Sienkiewicza+5+%C5%81ob%C5%BCenica" class="btn btn-primary" target="_blank" rel="noopener">Pokaż na mapie</a>
+                </div>
+
+                <div>
+                    <h3>Godziny otwarcia</h3>
+                    <!-- DO POTWIERDZENIA: godziny i do której wydawane są obiady -->
+                    <table class="hours do-potwierdzenia">
+                        <tr><th scope="row">Poniedziałek – piątek</th><td>10:00 – 17:00</td></tr>
+                        <tr><th scope="row">Sobota</th><td>10:00 – 17:00</td></tr>
+                        <tr><th scope="row">Niedziela</th><td>10:00 – 17:00</td></tr>
+                    </table>
+                    <p class="small do-potwierdzenia">Parking: tu wpisać, gdzie najlepiej zaparkować.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Restauracja Podkowa, Łobżenica</p>
+        </div>
+    </footer>
+
+</body>
+</html>
